@@ -1,0 +1,26 @@
+{
+  "name": "mediafire-dl-bot",
+  "version": "1.0.0",
+  "description": "Telegram Bot to download MediaFire files directly using API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "mediafire",
+    "downloader",
+    "nodejs"
+  ],
+  "author": "FikXzMods-Partner",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "telegraf": "^4.15.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
